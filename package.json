@@ -6,7 +6,10 @@
   "author": "Karan Sapolia",
   "license": "MIT",
   "scripts": {
-    "watch": "parcel src/index.html"
+    "watch": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /iphone-react-spring/",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
