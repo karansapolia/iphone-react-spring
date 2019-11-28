@@ -1,0 +1,23 @@
+{
+  "name": "iphone-react-spring",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Karan Sapolia",
+  "license": "MIT",
+  "scripts": {
+    "watch": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "prettier": "^1.19.1",
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0",
+    "react-spring": "^8.0.27",
+    "styled-components": "^4.4.1"
+  },
+  "alias": {
+    "#root": "./src"
+  }
+}
