@@ -2,8 +2,6 @@
 
 .cache/
 
-dist/
-
 node_modules/
 
 *.log
