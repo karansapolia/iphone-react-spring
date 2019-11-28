@@ -6,6 +6,7 @@
   "author": "Karan Sapolia",
   "license": "MIT",
   "scripts": {
+    "start": "parcel serve src/index.html",
     "watch": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url /iphone-react-spring/",
     "predeploy": "yarn build",
